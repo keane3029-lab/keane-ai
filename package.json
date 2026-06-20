@@ -1,0 +1,14 @@
+{
+  "name": "keane-ai",
+  "version": "1.0.3",
+  "description": "Uncensored AI chat app in the terminal",
+  "main": "index.js",
+  "bin": {
+    "keane-ai": "index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["ai", "chat", "terminal", "openrouter"],
+  "license": "MIT"
+}
