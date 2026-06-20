@@ -1,4 +1,4 @@
-```markdown
+n
 # 🤖 keane-ai
 
 An uncensored AI chat application that runs directly inside your terminal, powered by OpenRouter. 
@@ -18,69 +18,37 @@ You don't even need to download the source code to run it! Because it is live on
 Open your terminal or command prompt and run:
 ```bash
 npx keane-ai
-
-```
-
-### 📱 Android (Termux)
-
+📱 Android (Termux)
 Bring your AI chatbot on the go! Open Termux and set up Node.js first:
 
-```bash
+Bash
 pkg update && pkg install nodejs -y
-
-```
-
 Once installed, launch the app directly:
 
-```bash
+Bash
 npx keane-ai
-
-```
-
----
-
-## 🛠️ Local Setup & Development
-
+🛠️ Local Setup & Development
 If you want to clone the repository, tweak the code, or experiment with the logic locally:
 
-1. **Clone the repository:**
+Clone the repository:
 
-```bash
+Bash
    git clone [https://github.com/keane3029-lab/keane-ai.git](https://github.com/keane3029-lab/keane-ai.git)
    cd keane-ai
+Install dependencies:
 
-```
-
-2. **Install dependencies:**
-
-```bash
+Bash
    npm install
+Configure your API Key:
+Create a .env file in the root directory and drop your OpenRouter key inside:
 
-```
-
-3. **Configure your API Key:**
-Create a `.env` file in the root directory and drop your OpenRouter key inside:
-
-```env
+Code snippet
    OPENROUTER_API_KEY=your_api_key_here
+Run it locally:
 
-```
-
-4. **Run it locally:**
-
-```bash
+Bash
    node index.js
-
-```
-
----
-
-## 📄 License & Configuration
-
+📄 License & Configuration
 This project is open-source and licensed under the MIT License.
 
-> **Note:** Strictly managed via clean, hand-crafted `package.json` configurations (and safe from bad son jokes).
-
-```
-
-```
+Note: Strictly managed via clean, hand-crafted package.json configurations (and safe from bad son jokes).
